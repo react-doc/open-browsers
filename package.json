@@ -1,0 +1,17 @@
+{
+  "name": "open-browsers",
+  "version": "1.0.1",
+  "description": "Attempts to open the browser with a given URL. On Mac OS X, attempts to reuse an existing Chrome tab via AppleScript.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "colors-cli": "^1.0.13",
+    "cross-spawn": "^6.0.5",
+    "opn": "^5.3.0"
+  }
+}

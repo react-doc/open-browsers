@@ -23,3 +23,7 @@ if (openBrowsers('http://localhost:3000')) {
   console.log('The browser tab has been opened!');
 }
 ```
+
+### License
+
+`open-browsers` is open source software licensed as MIT.

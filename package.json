@@ -44,6 +44,6 @@
   "dependencies": {
     "colors-cli": "^1.0.13",
     "cross-spawn": "^6.0.5",
-    "opn": "^5.3.0"
+    "open": "^7.0.0"
   }
 }

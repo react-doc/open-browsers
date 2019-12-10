@@ -1,6 +1,6 @@
 {
   "name": "open-browsers",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "description": "Attempts to open the browser with a given URL. On Mac OS X, attempts to reuse an existing Chrome tab via AppleScript.",
   "main": "index.js",
   "scripts": {

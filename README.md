@@ -3,7 +3,7 @@ open-browsers
 
 Attempts to open the browser with a given URL.
 On Mac OS X, attempts to reuse an existing Chrome tab via AppleScript.
-Otherwise, falls back to [opn](https://github.com/sindresorhus/opn) behavior. `open-browsers` form [react-dev-utils](https://github.com/facebook/create-react-app/blob/next/packages/react-dev-utils/openBrowser.js).
+Otherwise, falls back to [open](https://github.com/sindresorhus/open) behavior. `open-browsers` form [react-dev-utils](https://github.com/facebook/create-react-app/blob/next/packages/react-dev-utils/openBrowser.js).
 
 ### Install
 

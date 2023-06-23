@@ -42,8 +42,8 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "colors-cli": "^1.0.13",
-    "cross-spawn": "^6.0.5",
-    "open": "^7.0.0"
+    "colors-cli": "^1.0.32",
+    "cross-spawn": "^7.0.3",
+    "open": "^8.4.2"
   }
 }

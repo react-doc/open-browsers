@@ -64,6 +64,31 @@ function executeNodeScript(scriptPath, url) {
   return true;
 }
 
+function getDefaultChromiumBrowser() {
+  try {
+    if (process.platform !== 'darwin') return null;
+    
+    const defaultBrowser = execSync(
+      'defaults read com.apple.LaunchServices/com.apple.launchservices.secure LSHandlers | grep -A 3 "https" | grep "LSHandlerRoleAll" | awk -F\\" \'{print $2}\''
+    ).toString().trim();
+    
+    const bundleIdToName = {
+      'com.google.chrome.canary': 'Google Chrome Canary',
+      'com.google.chrome.dev': 'Google Chrome Dev',
+      'com.google.chrome.beta': 'Google Chrome Beta',
+      'com.google.chrome': 'Google Chrome',
+      'com.microsoft.edgemac': 'Microsoft Edge',
+      'com.brave.Browser': 'Brave Browser',
+      'com.vivaldi.Vivaldi': 'Vivaldi',
+      'org.chromium.Chromium': 'Chromium'
+    };
+
+    return bundleIdToName[defaultBrowser] || null;
+  } catch (err) {
+    return null;
+  }
+}
+
 function startBrowserProcess(browser, url, args) {
   // If we're on OS X, the user hasn't specifically
   // requested a different browser, we can try opening
@@ -74,8 +99,11 @@ function startBrowserProcess(browser, url, args) {
     (typeof browser !== 'string' || browser === OSX_CHROME);
 
   if (shouldTryOpenChromiumWithAppleScript) {
+    const defaultBrowser = getDefaultChromiumBrowser();
+    
     // Will use the first open browser found from list
     const supportedChromiumBrowsers = [
+      defaultBrowser,
       'Google Chrome Canary',
       'Google Chrome Dev',
       'Google Chrome Beta',
@@ -84,7 +112,7 @@ function startBrowserProcess(browser, url, args) {
       'Brave Browser',
       'Vivaldi',
       'Chromium',
-    ];
+    ].filter(Boolean); ;
 
     for (let chromiumBrowser of supportedChromiumBrowsers) {
       try {

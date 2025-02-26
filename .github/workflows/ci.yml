@@ -30,8 +30,7 @@ jobs:
         with:
           path: README.md
           body: |
-            
-            ${{steps.contributors.outputs.htmlList}}
+            \n${{steps.contributors.outputs.htmlList}}
 
       - run: npm publish --access public --provenance
         name: 📦 open-browsers to NPM

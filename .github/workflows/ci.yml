@@ -16,7 +16,7 @@ jobs:
         with:
           node-version: 20
           registry-url: 'https://registry.npmjs.org'
-          
+
       - name: Generate Contributors Images
         uses: jaywcjlove/github-action-contributors@main
         id: contributors
@@ -30,6 +30,7 @@ jobs:
         with:
           path: README.md
           body: |
+            
             ${{steps.contributors.outputs.htmlList}}
 
       - run: npm publish --access public --provenance

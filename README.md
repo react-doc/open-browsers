@@ -31,9 +31,9 @@ if (openBrowsers('http://localhost:3000')) {
 
 As always, thanks to our amazing contributors!
 
-<!--GAMFC--><br/>
-<a href="https://github.com/jaywcjlove" title="小弟调调"><img src="https://avatars.githubusercontent.com/u/1680273?v=4" width="42;" alt="小弟调调"/></a>
-<a href="https://github.com/tomglynch" title="Tom Lynch"><img src="https://avatars.githubusercontent.com/u/17879963?v=4" width="42;" alt="Tom Lynch"/></a><!--GAMFC-END-->
+<!--GAMFC--><!--\n-->
+
+<a href="https://github.com/jaywcjlove" title="小弟调调"><img src="https://avatars.githubusercontent.com/u/1680273?v=4" width="42;" alt="小弟调调"/></a><!--GAMFC-END-->
 
 Made with [contributors](https://github.com/jaywcjlove/github-action-contributors).
 

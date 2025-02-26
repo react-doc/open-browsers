@@ -1,5 +1,10 @@
-open-browsers
----
+Open Browsers
+===
+
+[![Buy me a coffee](https://img.shields.io/badge/Buy%20me%20a%20coffee-048754?logo=buymeacoffee)](https://jaywcjlove.github.io/#/sponsor)
+[![CI](https://github.com/react-doc/open-browsers/actions/workflows/ci.yml/badge.svg)](https://github.com/react-doc/open-browsers/actions/workflows/ci.yml)
+[![npm version](https://img.shields.io/npm/v/open-browsers.svg)](https://www.npmjs.com/package/open-browsers)
+[![NPM Downloads](https://img.shields.io/npm/dm/open-browsers.svg?style=flat&label=)](https://www.npmjs.com/package/open-browsers)
 
 Attempts to open the browser with a given URL.
 On Mac OS X, attempts to reuse an existing Chrome tab via AppleScript.

@@ -27,6 +27,14 @@ if (openBrowsers('http://localhost:3000')) {
 }
 ```
 
+## Contributors
+
+As always, thanks to our amazing contributors!
+
+<!--GAMFC--><!--GAMFC-END-->
+
+Made with [contributors](https://github.com/jaywcjlove/github-action-contributors).
+
 ### License
 
 `open-browsers` is open source software licensed as MIT.

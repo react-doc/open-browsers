@@ -33,7 +33,9 @@ As always, thanks to our amazing contributors!
 
 <!--GAMFC--><!---->
 
-<a href="https://github.com/jaywcjlove" title="小弟调调"><img src="https://avatars.githubusercontent.com/u/1680273?v=4" width="42;" alt="小弟调调"/></a><!--GAMFC-END-->
+<a href="https://github.com/jaywcjlove" title="小弟调调"><img src="https://avatars.githubusercontent.com/u/1680273?v=4" width="42;" alt="小弟调调"/></a>
+<a href="https://github.com/tomglynch" title="Tom Lynch"><img src="https://avatars.githubusercontent.com/u/17879963?v=4" width="42;" alt="Tom Lynch"/></a>
+<a href="https://github.com/kyriiherman" title="kyriiherman"><img src="https://avatars.githubusercontent.com/u/9069967?v=4" width="42;" alt="kyriiherman"/></a><!--GAMFC-END-->
 
 Made with [contributors](https://github.com/jaywcjlove/github-action-contributors).
 

@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/react-doc/open-browsers.git"
+    "url": "git+https://github.com/react-doc/open-browsers.git"
   },
   "keywords": [
     "open-browsers",
